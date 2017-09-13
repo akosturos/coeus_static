@@ -1,4 +1,6 @@
 $(document).ready(function(){
+   x = document.URL
+   if ( x == ("coeusenergy.com") ) {
 
    $(window).on('scroll', function () {
 
@@ -12,7 +14,7 @@ $(document).ready(function(){
          $('#appear-home').css('color','#b0eb00');
       }
 
-      if ($(window).scrollTop() > 1650) {
+      if ($(window).scrollTop() > 1450) {
          $('#appear-tech').css('color','#b0eb00');
          $('#appear-home').css('color','#ffffff');
       } else {
@@ -28,5 +30,11 @@ $(document).ready(function(){
    $('#appear-home').on('click', function() {
       $('#appear-nav').fadeOut(100);
    });
+
+   }
+
+   if ( x == ("coeusenergy.com/team") ) {
+      $('#appear-team').css('color','#b0eb00');
+   }
 
 });

@@ -19,6 +19,13 @@
 .bgcolor-b {
   background-color: #000;
 }
+
+#nav-highlight {
+  color: '#b0eb00' !important;
+}
+.nav-highlight {
+  color: '#b0eb00' !important;
+}
 /**********
  ******************************************************
  GENERAL     GENERAL     GENERAL     GENERAL     GENERAL     GENERAL     GENERAL     GENERAL
@@ -574,8 +581,8 @@ textarea {
   box-shadow: 1px 2px 2px 1px rgba(255, 255, 255, 0.9);
 }
 #login-div-gray {
-  background-color: rgba(255, 255, 255, 0.5);
-  box-shadow: 1px 2px 2px 1px rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.75);
+  box-shadow: 1px 2px 2px 1px rgba(255, 255, 255, 0.6);
 }
 .login-gray-translucent {
   position: absolute;
@@ -832,7 +839,9 @@ textarea {
   width: 60%;
 }
 #login_background {
-  background-image: image-url('investor.jpg');
+  background: url('https://s3.us-east-2.amazonaws.com/coeusenergy.com/images/login/investor.jpg');
+  display: block;
+  background-size: 100% 100%;
   background-size: contain;
 }
 #nav-color {
