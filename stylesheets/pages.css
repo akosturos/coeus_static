@@ -100,6 +100,12 @@ a:active {
   color: #b0eb00;
   text-decoration: none;
 }
+
+.ww {
+  word-wrap: break-word;
+}
+
+
 /**********
  ******************************************************
  ClASSES     ClASSES     ClASSES     ClASSES     ClASSES     ClASSES     ClASSES     ClASSES
@@ -274,6 +280,8 @@ a:active {
   margin: 0;
 }
 #main-logo {
+  margin-top: 0;
+  margin-left: 8px;
   height: 61.6px;
   width: 53.6px;
 }
@@ -296,8 +304,8 @@ a:active {
   text-align: center;
 }
 #appear-logo {
-  height: 70%;
-  weight: 70%;
+  height: 25px;
+  width: 20px;
 }
 /**********
  ******************************************************
@@ -796,23 +804,22 @@ textarea {
   height: 100%;
 }
 #project-header {
-  width: 80%;
-  margin-right: 10%;
-  margin-left: 10%;
+  width: 95%;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
 }
 #project-header-single {
   width: 60%;
   margin-right: 20%;
   margin-left: 20%;
 }
-.appear-nav-li {
-  font-size: 16px;
-}
 .appear-nav-left {
+  font-size: 16px;
   padding-left: 0px;
   padding-right: 40px;
 }
 .appear-nav-right {
+  font-size: 16px;
   padding-left: 40px;
   padding-right: 0px;
 }
@@ -841,8 +848,8 @@ textarea {
 #login_background {
   background: url('https://s3.us-east-2.amazonaws.com/coeusenergy.com/images/login/investor.jpg');
   display: block;
-  background-size: 100% 100%;
-  background-size: contain;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 #nav-color {
   background-color: #000 !important;
@@ -853,6 +860,9 @@ textarea {
 }
 .navbar-inverse {
   background-color: #000;
+}
+#active-page-color {
+  color: #b0eb00;
 }
 @media screen and (max-width: 1200px) {
   #project-div {
@@ -894,15 +904,15 @@ textarea {
     padding-right: 0px;
   }
   .banner-text {
-    font-size: 60px;
+    font-size: 50px;
   }
   .banner-text-single {
-    margin-top: 40px;
-    font-size: 40px;
+    margin-top: 30px;
+    font-size: 35px;
   }
   .banner-text-double {
-    margin-top: 20px;
-    font-size: 40px;
+    margin-top: 10px;
+    font-size: 35px;
   }
   .home-ii {
     width: 210px;
@@ -926,10 +936,12 @@ textarea {
   #project-header {
     margin-top: 20px;
     font-size: 36px;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
   }
   #project-header-single {
     margin-top: 20px;
-    font-size: 36px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -954,7 +966,7 @@ textarea {
     padding-right: 0px;
   }
   .banner-text {
-    font-size: 50px;
+    font-size: 40px;
   }
   #hidden-proj-img {
     display: none;
@@ -971,7 +983,7 @@ textarea {
   }
   #project-header {
     padding-top: 30px;
-    font-size: 40px;
+    font-size: 35px;
   }
   #project-header-single {
     padding-top: 30px;
@@ -1010,6 +1022,7 @@ textarea {
     width: 180px;
     height: 90px;
   }
+  .banner-text-sig
 }
 @media screen and (max-width: 576px) {
   h1 {
@@ -1073,7 +1086,7 @@ textarea {
   }
   #project-header {
     padding-top: 30px;
-    font-size: 30px;
+    font-size: 20px;
   }
   #project-header-single {
     padding-top: 30px;
